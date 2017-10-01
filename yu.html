@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>Form Filling</title><head>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Patrick+Hand" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></head>
+
+<body>
+  
+  <body id="background">
+<header class="heade" align="right">
+  Form Filling
+</header>
+<div>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      >
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+         <li><a href="i.html"><img src="home.jpg" alt="home" style="width: 30%; height: 30%;"></a></li>
+        <li class="activ"><a href="contact.html">Contact Us</a></li>
+        <li class="activ"><a href="yu.html">Form Filling</a></li></ul>
+        
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+<style type="text/css">
+
+  .activ{
+    font-size: 20px;
+    padding-top: 20px;
+    }
+  .heade{
+    font-size: 35px;
+    color: black;
+    padding: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+   font-family: 'Kaushan Script', cursive;
+
+  }
+  #background{
+    background-color: #ADFF2F;
+  }
+</style>
+
+
+
+  <form method="POST" action="y.php">
+    <div>
+    	Name of Allotee:<br><input type="text" name="name"></div>
+      <div>
+    Contact person Name(If diffrent from allotee):<br><input type="text" name="name1"><br>
+    </div>
+    <div>
+    Relation with allotee:<br><input type="text" name="relation"><br>
+    </div>
+    <div>
+    Mobile number(10 digits):<br><input type="text" name="mob"><br>
+    </div>
+    <div>
+    Email Address:<br><input type="text" name="email"><br>
+    </div>
+    <div>
+     Invested in project(Name of the project):<br><input type="text" name="invested"><br>
+    </div>
+    <div>
+      Lockable/virtual<br><input type="text" name="lockable"><br>
+    </div>
+    <div>
+      Unit number:<br> <input type="text" name="unit">
+    </div>
+    <div>
+      Commercial or Residential?<br><input type="text" name="commercial"><br>
+    </div>
+    <div>
+      Unit size:<br><input type="text" name="size"><br> 
+    </div>
+    <div>
+      Customer Reference Nunmber:<br><input type="text" name="ref"><br>
+    </div>
+    <div>
+      Booking Date:<br><input type="Date" name="date"><br>
+    </div>
+    <div>
+      Total Unit Value:<br><input type="text" name="tot"><br>
+    </div>
+    <div> 
+      Paid Amount:<br><input type="text" name="paid"><br>
+    </div>
+    <div>
+      Payment Plan:<br><input type="text" name="payment"><br>
+    </div>
+    <div>
+      Any conversation done to other unit or big space?(State in yes or no)<br><input type="text" name="any"><br>
+    </div>
+    <div>
+      Conversation Details with date(if done):<br><input type="text" name="details"><br>
+    </div>
+    <div>
+      Agreement:(MOU/BBA/Not signed)<br><input type="text" name="agreement"><br>
+    </div>
+    <div>
+      Legal Proceedings(if done):<br><input type="text" name="legal"><br>
+    </div>
+    <div>
+      EOW Complaint Number(if done):<br><input type="text" name="eow"><br>
+    </div>
+    <div>
+      FIR number(if done):<br><input type="text" name="fir"><br>
+    </div>
+    <div>
+      Present address(Along with the pincode of city):<br><input type="text" name="address"><br>
+    </div>
+    <div>
+      Permanent address:(Along with the pincode of city)<br><input type="text" name="per"><br>
+    </div>
+    <div>
+      If interested in active role in Association(Answer in yes or no):<br><input type="text" name="ifw"><br>
+    </div>
+    <div>
+      If yes, Please specify current Profession:<br><input type="text" name="ifwe"><br>
+    </div>
+    <div>
+      Assured Return(Answer in yes or no):<br><input type="text" name="ret"><br>
+    </div>
+     <input type="submit" name="submit" value="Submit">
+    
+
+    </form>
+    </body></html>
