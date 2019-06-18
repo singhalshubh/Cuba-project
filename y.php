@@ -36,5 +36,5 @@ if(!mysqli_query($link,$mysqli))
   die("Sorry your information cannot be matched. Try again later");
   else
     echo "Succesfully submitted.\n Kindly Proceed to Pay";
-header("refresh:2;url=bank.html");
+header("refresh:2;url=i.html");
 ?>
