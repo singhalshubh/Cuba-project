@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/singhalshubh/cuba-project/badge)](https://www.codefactor.io/repository/github/singhalshubh/cuba-project)
+
 # Cuba-project
  NGO Project for promoting e commerce and reducing decieveness in India<br />
  
